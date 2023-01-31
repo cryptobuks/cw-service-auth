@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-CL'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/CL.yaml'

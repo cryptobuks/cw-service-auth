@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-OP'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/OP.yaml'

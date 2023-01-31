@@ -1,0 +1,7 @@
+steps:
+  name: 'GH-PT'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GH.yaml'
+    - 'roles/PT.yaml'

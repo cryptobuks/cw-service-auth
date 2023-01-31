@@ -1,0 +1,7 @@
+steps:
+  name: 'CW-OP'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CW.yaml'
+    - 'roles/OP.yaml'

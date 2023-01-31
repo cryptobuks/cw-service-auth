@@ -1,0 +1,7 @@
+steps:
+  name: 'GU-CL'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GU.yaml'
+    - 'roles/CL.yaml'

@@ -1,0 +1,7 @@
+steps:
+  name: 'CU-SA'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CU.yaml'
+    - 'roles/SA.yaml'

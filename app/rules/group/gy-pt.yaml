@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-PT'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/PT.yaml'

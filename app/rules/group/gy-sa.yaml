@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-SA'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/SA.yaml'

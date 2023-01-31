@@ -1,0 +1,26 @@
+module.exports = {
+  service: 'auth',
+  rabbitmq: { active: true, server: 'localhost:15672', user: 'dev', password: 'dev123' },
+  redis: { active: true, server: 'localhost', port: 16379 },
+  elasticSearch: { active: true, server: 'localhost:9200', timeout: 0, version: '7.6' },
+  options : {
+    duration : '30d',
+    resetDuration: '1d',
+    isSecure: true
+  },
+  mongodb: {
+    active: true,
+    server: 'localhost',
+    port: '37017',
+    user: '',
+    password: '',
+    debug: true,
+    databases: [
+      {
+        name: 'auth',
+        db: 'auth',
+        options: {}
+      }
+    ]
+  }
+}

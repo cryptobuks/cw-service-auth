@@ -1,0 +1,7 @@
+steps:
+  name: 'CH-OP'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CH.yaml'
+    - 'roles/OP.yaml'

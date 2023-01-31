@@ -1,0 +1,7 @@
+steps:
+  name: 'CH-SP'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CH.yaml'
+    - 'roles/SP.yaml'

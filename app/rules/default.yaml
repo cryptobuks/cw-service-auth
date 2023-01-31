@@ -1,0 +1,53 @@
+businessContacts:
+  viewAllProfile: false
+  viewAllDataProfile: false
+  importExport: false
+ownBusinessProfile:
+  edit:
+    read: false
+    edit: false
+  contracts:
+    read: false
+    edit: false
+  collaborators:
+    read: false
+    edit: false
+  gymDevice:
+    read: false
+    edit: false
+  background:
+    read: false
+    edit: false
+  wallet:
+    read: false
+    edit: false
+  webChat:
+    read: false
+    edit: false
+  roles:
+    read: false
+    edit: false
+chat:
+  group:
+    read: false
+    edit: false
+  broadcast:
+    read: false
+    edit: false
+switchProfile: true
+gym:
+  read: false
+  create: false
+  suspend: false
+  unSuspend: false
+report:
+  read: false
+  contact:
+    read: false  
+settings:
+  read: false
+  background: false
+  languages: false
+  sportInterest: false
+  termsOfPayment: false
+  countries: false

@@ -1,0 +1,21 @@
+module.exports = {
+  service: 'auth',
+  fastify: { active: true, port: 0 },
+  redis: { active: true },
+  elasticSearch: { active: true },
+  options : {
+    duration : '30d',
+    resetDuration: '1d',
+    isSecure: true
+  },
+  mongodb: {
+    active: true,
+    databases: [
+      {
+        name: 'auth',
+        db: 'auth',
+        options: {}
+      }
+    ]
+  }
+}

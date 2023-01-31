@@ -1,0 +1,53 @@
+version: '3.1'
+services:
+    token:
+        container_name: token-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-tokens/service-tokens:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports: 
+            - ${TOKEN_PORT}:3010
+
+    mailing:
+        container_name: mailing-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-mailing/service-mailing:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports:
+            - ${MAILING_PORT}:3010
+
+    setting:
+        container_name: setting-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-settings/service-settings:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports: 
+            - ${SETTING_PORT}:3010
+    sms:
+        container_name: sms-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-sms/service-sms:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports: 
+            - ${SMS_PORT}:3010
+    shortlink:
+        container_name: shortlink-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-shortlink/service-shortlink:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports: 
+            - ${SHORTLINK_PORT}:3010
+    file:
+        container_name: file-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-files/service-files:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports: 
+            - ${FILE_PORT}:3010
+    chat:
+        container_name: chat-service
+        image: registry.gitlab.com/cowellness/iseo/services/service-chat/service-chat:dev.latest
+        environment:
+            - NODE_CONFIG=${NODE_CONFIG}
+        ports: 
+            - ${CHAT_PORT}:3010

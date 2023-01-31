@@ -1,0 +1,6 @@
+steps:
+  name: 'CO'
+  files:
+    - 'default.yaml'
+    - 'user.yaml'
+    - 'CO.yaml'

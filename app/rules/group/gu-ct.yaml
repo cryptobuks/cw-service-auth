@@ -1,0 +1,7 @@
+steps:
+  name: 'GU-CT'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GU.yaml'
+    - 'roles/CT.yaml'

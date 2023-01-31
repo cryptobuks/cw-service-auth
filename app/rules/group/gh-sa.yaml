@@ -1,0 +1,7 @@
+steps:
+  name: 'GH-SA'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GH.yaml'
+    - 'roles/SA.yaml'

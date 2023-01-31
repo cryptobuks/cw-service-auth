@@ -1,0 +1,7 @@
+steps:
+  name: 'CH-SA'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CH.yaml'
+    - 'roles/SA.yaml'

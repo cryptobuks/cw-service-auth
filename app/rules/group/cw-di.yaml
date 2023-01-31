@@ -1,0 +1,7 @@
+steps:
+  name: 'CW-DI'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CW.yaml'
+    - 'roles/DI.yaml'

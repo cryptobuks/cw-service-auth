@@ -1,0 +1,7 @@
+steps:
+  name: 'CU-PT'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CU.yaml'
+    - 'roles/PT.yaml'

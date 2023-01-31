@@ -1,0 +1,7 @@
+steps:
+  name: 'CH-DI'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CH.yaml'
+    - 'roles/DI.yaml'

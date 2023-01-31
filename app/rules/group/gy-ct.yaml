@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-CT'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/CT.yaml'

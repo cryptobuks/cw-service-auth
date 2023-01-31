@@ -1,0 +1,7 @@
+steps:
+  name: 'GU-DI'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GU.yaml'
+    - 'roles/DI.yaml'

@@ -1,0 +1,7 @@
+settings:
+  read: true
+  background: true
+  languages: true
+  sportInterest: true
+  termsOfPayment: true
+  countries: true

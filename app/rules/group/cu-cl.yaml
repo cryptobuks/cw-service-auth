@@ -1,0 +1,7 @@
+steps:
+  name: 'CU-CL'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CU.yaml'
+    - 'roles/CL.yaml'

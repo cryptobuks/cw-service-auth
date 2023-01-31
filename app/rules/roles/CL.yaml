@@ -1,0 +1,11 @@
+switchProfile: false
+ownBusinessProfile:
+  edit:
+    read: true
+settings:
+  read: false
+  background: false
+  languages: false
+  sportInterest: false
+  termsOfPayment: false
+  countries: false

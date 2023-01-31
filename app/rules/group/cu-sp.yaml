@@ -1,0 +1,7 @@
+steps:
+  name: 'CU-SP'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CU.yaml'
+    - 'roles/SP.yaml'

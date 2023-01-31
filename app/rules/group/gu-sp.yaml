@@ -1,0 +1,7 @@
+steps:
+  name: 'GU-SP'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GU.yaml'
+    - 'roles/SP.yaml'

@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-DI'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/DI.yaml'

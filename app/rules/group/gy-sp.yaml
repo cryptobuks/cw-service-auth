@@ -1,0 +1,7 @@
+steps:
+  name: 'GY-SP'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GY.yaml'
+    - 'roles/SP.yaml'

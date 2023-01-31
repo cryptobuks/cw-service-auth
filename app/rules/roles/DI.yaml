@@ -1,0 +1,44 @@
+businessContacts:
+  viewAllProfile: true
+  viewAllDataProfile: true
+  importExport: true
+ownBusinessProfile:
+  edit:
+    read: true
+    edit: true
+  contracts:
+    read: true
+    edit: true
+  collaborators:
+    read: true
+    edit: true
+  gymDevice:
+    read: true
+    edit: true
+  background:
+    read: true
+    edit: true
+  wallet:
+    read: true
+    edit: true
+  webChat:
+    read: true
+    edit: true
+  roles:
+    read: true
+    edit: true
+chat:
+  group:
+    read: true
+    edit: true
+  broadcast:
+    read: true
+    edit: true
+gym:
+  create: true
+  suspend: true
+  unSuspend: true
+report:
+  read: true
+  contact:
+    read: true

@@ -1,0 +1,7 @@
+steps:
+  name: 'GU-PT'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GU.yaml'
+    - 'roles/PT.yaml'

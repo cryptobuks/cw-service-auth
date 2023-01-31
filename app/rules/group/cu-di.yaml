@@ -1,0 +1,7 @@
+steps:
+  name: 'CU-DI'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CU.yaml'
+    - 'roles/DI.yaml'

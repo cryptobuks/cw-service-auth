@@ -1,0 +1,28 @@
+businessContacts:
+  viewAllProfile: true
+  viewAllDataProfile: true
+ownBusinessProfile:
+  edit:
+    read: true
+  contracts:
+    read: true
+  gymDevice:
+    read: true
+  background:
+    read: true
+  wallet:
+    read: true
+chat:
+  group:
+    read: true
+    edit: true
+  broadcast:
+    read: true
+    edit: true
+gym:
+  create: true
+  suspend: true    
+report:
+  read: true
+  contact:
+    read: true

@@ -1,0 +1,7 @@
+steps:
+  name: 'GU-OP'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GU.yaml'
+    - 'roles/OP.yaml'

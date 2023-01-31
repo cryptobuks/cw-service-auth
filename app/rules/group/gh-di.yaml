@@ -1,0 +1,7 @@
+steps:
+  name: 'GH-DI'
+  files:
+    - 'default.yaml'
+    - 'gym.yaml'
+    - 'GH.yaml'
+    - 'roles/DI.yaml'

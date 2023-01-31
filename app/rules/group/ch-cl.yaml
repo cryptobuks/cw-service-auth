@@ -1,0 +1,7 @@
+steps:
+  name: 'CH-CL'
+  files:
+    - 'default.yaml'
+    - 'cowellness.yaml'
+    - 'CH.yaml'
+    - 'roles/CL.yaml'

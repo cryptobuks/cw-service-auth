@@ -1,0 +1,14 @@
+ownBusinessProfile:
+  edit:
+    read: true
+    edit: false
+chat:
+  group:
+    read: true
+settings:
+  read: false
+  background: false
+  languages: false
+  sportInterest: false
+  termsOfPayment: false
+  countries: false
